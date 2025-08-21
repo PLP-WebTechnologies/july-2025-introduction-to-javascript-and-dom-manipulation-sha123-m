@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharon Gacheri | Portfolio</title>
+  <meta name="description" content="Portfolio of Sharon Gacheri - Web Developer, showcasing projects, skills, and contact information.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Sharon Gacheri</h1>
+    <p id="welcome-message">Welcome to my portfolio!</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle">🌙 Toggle Theme</button>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am an aspiring software developer passionate about building efficient and user-friendly digital solutions.
+        I enjoy working with HTML, CSS, JavaScript, and modern frameworks to create responsive applications.
+      </p>
+      <p id="experience"></p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul id="skills-list"></ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio site showcasing my work and skills using HTML, CSS, and JavaScript.</p>
+        </article>
+        <article class="project-card">
+          <h3>Customer Check-in System</h3>
+          <p>A local hosting project built with PHP and MySQL to manage customer visits efficiently.</p>
+        </article>
+        <article class="project-card">
+          <h3>Weather App</h3>
+          <p>A React application that fetches live weather updates using APIs.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:sharonmwenda436@gmail.com">sharonmwenda436@gmail.com</a></p>
+      <p>Phone: <a href="tel:+254759611371">+254 759 611 371</a></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> Sharon Gacheri. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
